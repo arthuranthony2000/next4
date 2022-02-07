@@ -6,7 +6,7 @@ export default function Main() {
 
         <div>
 
-            <a href="/movies"> ACESSAR FILMES </a>
+            <a href="/movies2"> ACESSAR FILMES </a>
 
         </div>
 
