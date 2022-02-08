@@ -5,7 +5,7 @@ export default function Movies() {
 
     const { query } = useRouter()
 
-    const { data, error } = useSWR(`http://www.omdbapi.com/?apikey=6d17a1f&i=${query.id}`, fetcher)
+    const { data, error } = useSWR(`https://www.omdbapi.com/?apikey=6d17a1f&i=${query.id}`, fetcher)
 
     if (error) return <div>falha na requisição...</div>
 
